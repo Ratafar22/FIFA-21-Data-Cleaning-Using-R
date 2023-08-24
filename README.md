@@ -1,9 +1,9 @@
 # FIFA-21-Data-Cleaning-Using-R
 ![](Football.jpg)
 
-While growing up, my favorite sport was football. Then at home, we watched the game together with my parents, siblings, and some other members of the family. The time spent together doing this was a memorable one. During my secondary school days, I was part of the team that represented my school in football games. Then I was good at being a keeper and sometimes I played as a midfielder :smile:. What a memory! 
+While growing up, my favorite sport was football. Then at home, I watched the game together with my parents, siblings, and some other members of the family. The time spent together doing this was a memorable one. During my secondary school days, I was part of the team that represented my school in football games. Then I was good at being a keeper and sometimes I played as a midfielder :smile:. What a memory! 
 
-In short my love for football made me jump on this data-cleaning challenge
+In short, my love for football made me jump on this data-cleaning challenge
 
 ## Background
 
@@ -13,8 +13,8 @@ The uncleaned data was obtained from [Kaggle](https://www.kaggle.com/datasets/ya
 I decided to use R programming language for the cleaning in other to improve my R skills.
 
 ## About the dataset
-The dataset contains information on players who partook in FIFA 2021 football. There are 18979 rows and 77 columns in the datasets, that's a lot right?
-A total of 19 columns were cleaned/modified 
+The dataset contains information on players who partook in FIFA 2021 football. There are 18979 rows and 77 columns in the datasets, that's a lot of columns, right?
+A total of 19 columns were cleaned/modified
 
 ## Data Cleaning Process
 
