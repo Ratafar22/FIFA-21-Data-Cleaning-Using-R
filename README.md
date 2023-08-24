@@ -1,22 +1,32 @@
 # FIFA-21-Data-Cleaning-Using-R
+![](Football.jpg)
+
+While growing up, my favorite sport was football. Then at home, we watched the game together with my parents, siblings, and some other members of the family. The time spent together doing this was a memorable one. During my secondary school days, I was part of the team that represented my school in football games. Then I was good at being a keeper and sometimes I played as a midfielder :smile:. What a memory! 
+
+In short my love for football made me jump on this data-cleaning challenge
 
 ## Background
 
-This is a data cleaning challenge organized by [ChinosoPromise](https://twitter.com/PromiseNonso_) and [VicSomadina](https://twitter.com/vicSomadina) for data newbies, intermediate, and pro data analysts to test their data cleaning knowledge or to learn how to clean dirty and messy data as the case may be. The uncleaned data was obtained from [Kaggle](https://www.kaggle.com/datasets/yagunnersya/fifa-21-messy-raw-dataset-for-cleaning-exploring)
+This challenge was organized by [ChinosoPromise](https://twitter.com/PromiseNonso_) and [VicSomadina](https://twitter.com/vicSomadina) for data newbies, intermediate, and pro data analysts to test their data cleaning knowledge or to learn how to clean dirty and messy data as the case may be.
+The uncleaned data was obtained from [Kaggle](https://www.kaggle.com/datasets/yagunnersya/fifa-21-messy-raw-dataset-for-cleaning-exploring).
+
+I decided to use R programming language for the cleaning in other to improve my R skills.
 
 ## About the dataset
-The dataset contains information on players who partook in FIFA 2021 football. There are 18979 rows and 77 columns in the datasets. 
+The dataset contains information on players who partook in FIFA 2021 football. There are 18979 rows and 77 columns in the datasets, that's a lot right?
+A total of 19 columns were cleaned/modified 
 
 ## Data Cleaning Process
 
 The table below shows a preview of how the data looks before cleaning
+
 ![](BeforeCleaning.PNG)
 
 The notable cleaning performed on the dataset is described below
 
 - **Data Load**
 
-The CSV file was loaded into RStudio using the below code:
+The CSV file was loaded into RStudio using the code below:
 
 ```r
 new_data <- read.csv("C:/Users/Raufr/OneDrive/Desktop/R/Data Cleaning with R/fifa21 raw data v2.csv")
@@ -239,6 +249,11 @@ new_data<- new_data %>%
   rename(Full_Name=LongName, Overall_Rating=X.OVA, Potential=POT, Height_cm= Height, Weight_kg=Weight,
          Best_Overall=BOV,Injury_Rating= IR, Pass_Accuracy=PAS, Shooting_Attribute=SHO,Pace=PAC)
 ```
+## After cleaning
+
+Below is a preview of how the data looks after cleaning
+
+![](AfterCleaning.PNG)
 
 ## Conclusion
 Finally, the cleaned dataset was saved as a CSV file and exported and it can be downloaded from [here](https://github.com/Ratafar22/FIFA-21-Data-Cleaning-Using-R/blob/main/Fifa_data.Cleaned.csv) for anyone who has an interest in working with it.
